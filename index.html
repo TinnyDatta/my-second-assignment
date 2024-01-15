@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Second Assignment</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/668aef5a51.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-    <div class="banner">
-        <div class="banner-text">
-            <h1 class="h1-header">Explore Your Travel</h1>
-            <p class="para-primary">Travel is the greatest source of pleasure and knowledge. One can refresh his mind by travelling some places.</p>
-            <div class="options">
-                <option class="btn-primary" value="where go">Where go</option>
-                <select class="places" name="" id="">
-                    <option class="btn-primary" value="when">When</option>
-                    <option class="btn-primary" value="september">September</option>
-                    </select>  
-                    <select class="places" name="" id="">
-                        <option class="btn-primary" value="type">Select Type</option>
-                        <option class="btn-primary" value="type">Adventurous</option>
-                      <button class="btn-primary" type="button">Find Now</button>
-                    </select>
+        <div class="banner">
+            <div class="banner-text">
+                <h3 class="h3-header">Explore Your Travel</h3>
+                <p class="para-primary para-header">Travel is the greatest source of pleasure and knowledge. One can
+                    refresh his
+                    mind by travelling some places.</p>
+                <div class="time-date">
+                    <form class="options" action="">
+                        <option class="btn-primary" value="where go">Where go</option>
+
+                        <option id="time-for-travel" value="when">When</option>
+
+
+                        <select class="travel-input" name="" id="">
+                            <option class="btn-primary" value="type">Select Type</option>
+                            <option class="btn-primary" value="type">Adventurous</option>
+                            <button class="btn-primary" type="button">Find Now</button>
+                        </select>
+                    </form>
+
                 </div>
-            
+
+            </div>
         </div>
-    </div>
     </header>
     <main>
+        <!-- popular tour section -->
+        <section class="popular-container">
+            <div class="popular-container-text">
+                <h3 class="title-primary">Our Popular Tours</h3>
+                <p class="para-primary popular-para">Throughout the journey of 20 years we had gone all of the famous
+                    parts of the world. We take care the most that is the tourists satisfaction.</p>
+                <ul>
+                    <li class="popular-para">Last month we had enjoyed 3 tours but the tour in Maldives was wonderful.
+                        We had 100 visitor and it was 10 days tour.</li>
+                    <li class="popular-para">As they cannot communicate with lots of people easily, we only took 5
+                        member and planned our tour according to their choice.</li>
+                    <li class="popular-para">Our last mountain tour with some awesome young was adventurous. It will
+                        never be forgotten.</li>
+                </ul>
+                <p class="para-primary rules">We have some rules to ensure the higher safety of our travellar.
+                    Maintaining these regulation, we completed all of our tours safely.</p>
+                <button class="btn-primary read-btn" type="button">Read More</button>
+            </div>
+            <div>
+                <img class="destination-images" src="images/Rectangle 4.png" alt="">
+            </div>
 
+        </section>
+        <!-- destinations section -->
+        <section class="destination">
+            <div class="destination-description">
+                <h3 class="title-primary destination-title">Choose Your Destination</h3>
+                <p class="para-primary destination-para">Individuals have different choices about selecting places for
+                    visit. Here are some beautiful places for visit. </p>
+            </div>
+            <div class="destination-images">
+                <img src="images/Rectangle 5.png" alt="">
+                <img src="images/Rectangle 8.png" alt="">
+                <img src="images/Rectangle 6.png" alt="">
+                <img src="images/Rectangle 7.png" alt="">
+                <img src="images/Rectangle 9.png" alt="">
+                <img src="images/Rectangle 11.png" alt="">
+                <img src="images/Rectangle 10.png" alt="">
+            </div>
+        </section>
     </main>
     <footer>
-        
+    <div>
+        <img src="images/Group 40071 (2).png" alt="">
+        <h4>Ecstatic Trip</h4>
+    </div>
+    <p class="para-primary"></p>
     </footer>
 </body>
+
 </html>

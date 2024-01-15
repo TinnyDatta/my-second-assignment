@@ -2,64 +2,198 @@
 
 /* ---------shared style--------- */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-font-family: 'Inter Tight', sans-serif;
-font-family: 'Manrope', sans-serif;
-font-family: 'Merriweather Sans', sans-serif;
-font-family: 'Mulish', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-.btn-primary{
+
+.para-primary {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+}
+
+.btn-primary {
     background: #FFF;
     border-radius: 8px;
     width: 174px;
     height: 52px;
     color: rgba(19, 19, 24, 0.50);
-font-size: 16px;
-font-weight: 400;
-
+    font-size: 16px;
+    font-weight: 400;
 }
+
+.title-primary {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 /* ---------banner style-------- */
-.banner{
+.banner {
     background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 60px 135px 100px 135px;
 }
-.banner-text{
+
+.banner-text {
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    margin-top: 106px;
+    margin-bottom: 106px;
 }
-.h1-header{
+
+.h3-header {
     color: #FFF;
-font-size: 64px;
-font-weight: 800;
-}
-.para-primary{
-    color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+    font-size: 64px;
+    font-weight: 800;
 
 }
-.options{
-    display: flex;
-    border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-width: 800px;
-height: 84px;
-gap: 24px;
-padding: 16px;
+
+.para-header {
+    margin: 24px 247px 48px 247px;
+
 }
-.primary{
-    background: #FFF;
+
+.time-date {
     border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 800px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 106px;
+
+}
+
+.options {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+}
+
+.time-for-travel {
     width: 174px;
     height: 52px;
+}
+
+/* -------- Our popular tour section----- */
+.popular-container {
+    display: flex;
+    margin: 100px 135px;
+    gap: 50px;
+
+}
+
+.popular-container ul {
+    margin-left: 30px;
+}
+
+
+.popular-para {
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 16px;
+}
+
+.rules {
+    color: #5A5A5D;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.read-btn {
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+/*--------- destination section--------- */
+
+.destination-title {
+    text-align: center;
+}
+
+.destination-para {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-top: 24px;
+}
+
+.destination-images {
+    margin-left: 90px;
+    margin-top: 48px;
+    gap: 24px;
+}
+.images{
+    position: relative;
+}
+h2{
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 170px;
+}
+
+@media screen and (max-width:600px) {
+    .banner {
+        width: 550px;
+        height: 483px;
+    }
+
+    .h3-header {
+        font-size: 22px;
+    }
+
+    .para-header {
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 21px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .time-date {
+        margin: 0;
+    }
+
+    .options {
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .popular-container {
+        flex-direction: column;
+    }
+
+    .title-primary {
+        font-size: 20px;
+    }
+
+    .destination-images {
+        width: 335px;
+        height: 342px;
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
