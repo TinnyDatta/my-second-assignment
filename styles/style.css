@@ -612,18 +612,14 @@ margin-left: 20px;
         margin: 40px;
     }
     .destination-images{
-       display: flex;
-       flex-wrap: wrap;
-       margin: 5px;
+        margin: 20px;
     }
     .nice-images{
-        width: 450px;
-        height: 300px;
+        width: 850px;
+        height: 400px;
+        margin: 20px;
     }
-    .img-10{
-        width: 900px;
-        height: 350px;
-    }
+    
     .why-us{
         margin-top: 50px;
     }
@@ -642,6 +638,13 @@ margin-left: 200px;
 .hotels-hotels{
     margin: 48px 5px 24px;
     gap: 5px;
+}
+.hotel{
+    width: 470px;
+    gap: 10px;
+}
+.hotels-para{
+    padding-left: 5px;
 }
 .hotel-3{
     margin-left: 350px;
