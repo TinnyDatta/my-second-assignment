@@ -3,6 +3,7 @@
 /* ---------shared style--------- */
 
 * {
+
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -299,6 +300,33 @@ h2 {
     height: 422px;
    margin-top: 100px;
 }
+.travel-com{
+    border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+position: relative;
+top: -180px;
+left: 330px;
+
+}
+.travel-com p{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    left: 100px;
+    padding-top:20px ;
+   
+}
+.travel-com h2{
+font-size: 32px;
+font-weight: 800;
+position: relative;
+    top: 5px;
+left: 20px;
+}
 
 .newsletter-and-img {
     display: flex;
@@ -306,6 +334,7 @@ h2 {
     margin-left: 135px;
     margin-right: 135px;
 }
+
 
 /* ---------footer--------- */
 footer {
@@ -517,6 +546,19 @@ padding-left: 20px;
     width: 335px;
 height: 300px;
 
+ }
+ .travel-com{
+    width: 214.023px;
+    height: 79.268px;
+position: relative;
+left: 120px;
+top: -120px;
+ }
+ .travel-com p{
+    font-size: 15.854px;
+ }
+ .travel-com h2{
+    font-size: 21.138px;
  }
  .newsletter-img{
     width: 335px;
