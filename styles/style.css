@@ -26,6 +26,7 @@
 .btn-primary {
     background: #FFF;
     border-radius: 8px;
+    border: none;
     width: 174px;
     height: 52px;
     color: rgba(19, 19, 24, 0.50);
@@ -84,11 +85,15 @@
     gap: 24px;
     padding: 16px;
 }
+.btn-search{
+    background: #FF5400;
+color: #FFF;
 
-.time-for-travel {
-    width: 174px;
-    height: 52px;
 }
+span{
+    margin-right: 20px;
+}
+
 
 /* -------- Our popular tour section----- */
 .popular-container {
@@ -388,6 +393,11 @@ footer {
         align-items: flex-start;
         gap: 16px;
     }
+    .btn-primary{
+        width: 255px;
+height: 52px;
+    }
+    
 
     .popular-container {
         flex-direction: column;
