@@ -62,11 +62,12 @@
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+   padding-top: 100px;
 
 }
 
 .para-header {
-    margin: 24px 247px 48px 247px;
+    padding: 24px 247px 48px 247px;
 
 }
 
@@ -74,9 +75,7 @@
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     width: 800px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 106px;
+   margin: 48px 147px 106px;
 
 }
 
@@ -135,71 +134,89 @@
     margin-top: 24px;
 }
 
-.destination-images {
+.select-places {
     margin-left: 90px;
     margin-top: 48px;
+}
+
+.destination-images {
     gap: 24px;
+    border-radius: 16px;
 }
-.images{
+
+.images {
     position: relative;
+
 }
-h2{
+
+h2 {
     text-align: center;
     position: absolute;
     top: 120px;
     left: 170px;
 }
+
 /* ---------footer--------- */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
-   
-height: 502px;
-margin-top: 100px;
+
+    height: 502px;
+    margin-top: 100px;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     gap: 16px;
-    padding-top:100px ;
+    padding-top: 100px;
 
 
 }
-.para-footer{
+
+.para-footer {
     color: #5A5A5D;
     text-align: center;
     margin-top: 15px;
     margin-left: 335px;
     margin-right: 335px;
 }
-.social-media-links{
- text-align: center;
+
+.social-media-links {
+    text-align: center;
     margin-top: 32px;
     gap: 20px;
 }
-.line{
-    width:800px;
+
+.line {
+    width: 800px;
     background: rgba(19, 19, 24, 0.10);
     margin: 50px 342px;
 }
-.footer-last{
+
+.footer-last {
     color: #131318;
-font-family: Inter;
-font-size: 16px;
-font-weight: 300;
-text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
 }
 
 
 @media screen and (max-width:600px) {
+    header{
+        margin: 32px 20px 24px; 
+    }
     .banner {
-        width: 550px;
+        width: 335px;
         height: 483px;
+        margin:24px 20px;
     }
 
     .h3-header {
         font-size: 22px;
+        padding-top: 32px;
     }
 
     .para-header {
@@ -208,10 +225,12 @@ text-align: center;
         line-height: 21px;
         text-align: center;
         margin: 0;
+        padding: 15px 16px;
     }
 
     .time-date {
         margin: 0;
+        width: 287px;
     }
 
     .options {
@@ -225,17 +244,51 @@ text-align: center;
 
     .popular-container {
         flex-direction: column;
+        margin: 24px 20px;
+    }
+   .popular-container-text{
+    margin: 16px 20px;
+   }
+    .popular-container ul {
+        margin-left: 15px;
+    }
+
+    .popular-para {
+        width: 335px;
     }
 
     .title-primary {
         font-size: 20px;
     }
 
-    .destination-images {
+    .mountain-image {
         width: 335px;
         height: 342px;
         display: flex;
         flex-direction: column;
+        margin: 24px 20px;
     }
-    
+
+    .destination-title {
+        text-align: center;
+        font-size: 20px;
+        margin: 24px 48px 16px;
+    }
+
+    .destination-para {
+        width: 309px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+       margin: 16px 33px;
+    }
+   .select-places{
+    margin: 20px;
+   }
+   .nice-images{
+    width: 335px;
+height: 176px;
+margin: 16px 20px;
+   }
 }
