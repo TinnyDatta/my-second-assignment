@@ -155,6 +155,75 @@ h2 {
     top: 120px;
     left: 170px;
 }
+/* --------why choose us section-------- */
+.why-us{
+    margin-top: 100px;
+}
+.hotels-header{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+padding-left: 32px;
+padding-right: 305px;
+padding-bottom: 16px;
+}
+.hotels-para{
+    color: #5A5A5D;
+    width: 486px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-left: 32px;
+    padding-right: 55px ;
+    padding-bottom: 32px;
+}
+
+.hotel{
+    width: 573px;
+height: 284px;
+border-radius: 16px;
+}
+.hotels-img{
+    width: 64px;
+height: 64px;
+padding: 32px 477px 32px 32px;
+}
+.choose-us-content{
+    text-align: center;
+}
+.choose-us-para{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 643px;
+margin-top: 24px;
+margin-left: 398px;
+margin-right: 399px;
+}
+.hotel-1{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+     background: rgba(251, 181, 99, 0.05);
+    }
+    .hotel-2{
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+        margin-bottom: 24px;
+    }
+    .hotel-3{
+        border: 1px solid rgba(233, 68, 68, 0.20);
+      background: rgba(233, 68, 68, 0.05);
+      margin-left: 420px;
+      margin-right: 434px;
+    }
+    .hotels-hotels{
+        display: flex;
+        gap: 24px;
+        margin-top: 48px;
+        margin-left: 135px;
+        margin-right: 135px;
+    }
+    
 
 /* ---------footer--------- */
 footer {
@@ -275,7 +344,9 @@ footer {
         margin: 24px 64px 16px;
     }
 
-    .destination-para {
+    .destination-para,
+    .choose-us-para
+    {
         width: 309px;
         font-size: 14px;
         font-weight: 400;
@@ -290,6 +361,27 @@ footer {
     width: 335px;
 height: 176px;
 margin: 16px 20px;
+   }
+   .choose-us-header{
+    margin: 24px 110px 16px;
+   }
+   .hotels-hotels{
+    flex-direction: column;
+    margin: 16px 20px;
+   }
+   .hotel{
+    width: 335px;
+height: 289px;
+
+   }
+   .hotels-header{
+    padding: 16px 16px 16px 30px;
+   }
+   .hotels-para{
+    width: 271px;
+   }
+   .hotel-3{
+    margin: 16px 20px;
    }
 
    .footer{
