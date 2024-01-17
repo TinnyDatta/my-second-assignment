@@ -146,8 +146,58 @@ span{
 }
 
 .destination-images {
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     border-radius: 16px;
+}
+.country-picture{
+    position: relative;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+}
+.country-name-srilanka{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+}
+.country-name-kashmir{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translate(-50%, -50%); 
+}
+.country-name-bandarban{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-50%, -50%); 
+}
+.country-name-bd{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    transform: translate(-50%, -50%); 
+}
+.country-name-north{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%); 
 }
 
 .images {
@@ -385,6 +435,7 @@ footer {
 
 
 @media screen and (max-width:600px) {
+   
     header {
         margin: 32px 20px 24px;
     }
@@ -619,6 +670,7 @@ margin-left: 20px;
         height: 400px;
         margin: 20px;
     }
+    
     
     .why-us{
         margin-top: 50px;
