@@ -385,6 +385,27 @@ left: 20px;
     margin-right: 135px;
 }
 
+/* ------next destination----- */
+.next-destination{
+    display: flex;
+    gap: 50px;
+    margin: 100px 135px;
+}
+.next-destination-content{
+    text-align: center;
+   padding-top: 60px;
+   background-color:rgb(232, 232, 247) ;
+   border-radius: 16px;
+   
+}
+.next-tour-para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.next-places-img{
+    border-radius: 16px;
+}
+
 
 /* ---------footer--------- */
 footer {
@@ -401,8 +422,9 @@ footer {
     justify-content: center;
     gap: 16px;
     padding-top: 100px;
-
-
+}
+.trip-clr{
+    color: #FF5400;
 }
 
 .para-footer {
@@ -435,6 +457,9 @@ footer {
 
 
 @media screen and (max-width:600px) {
+    body{
+        width: 100%;
+    }
    
     header {
         margin: 32px 20px 24px;
@@ -528,7 +553,10 @@ height: 52px;
         margin: 20px;
     }
 
-    .nice-images {
+    .nice-images,
+    .next-destination-content,
+    .next-places-img
+    {
         width: 335px;
         height: 176px;
         margin: 16px 20px;
@@ -538,7 +566,8 @@ height: 52px;
         margin: 24px 110px 16px;
     }
 
-    .hotels-hotels, 
+    .hotels-hotels,
+    .next-destination, 
     .newsletter-and-img
     {
         flex-direction: column;
@@ -617,6 +646,10 @@ height: 300px;
 margin-top: 5px;
 margin-left: 20px;
  }
+ .next-destination-content{
+    padding-top: 20px;
+    height: 250px;
+ }
 
     .footer {
         width: 375px;
@@ -665,7 +698,9 @@ margin-left: 20px;
     .destination-images{
         margin: 20px;
     }
-    .nice-images{
+    .nice-images,
+    .next-places-img
+    {
         width: 850px;
         height: 400px;
         margin: 20px;
@@ -701,12 +736,22 @@ margin-left: 200px;
 .hotel-3{
     margin-left: 350px;
 }
-.newsletter-and-img{
+.newsletter-and-img,
+.next-destination
+{
     flex-direction: column;
 }
-.newsletter{
+.newsletter
+{
     width: 474px;
 height: 422px;
+}
+.next-destination{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.next-places-img{
+    margin-right: 130px;
 }
 .line{
     margin: 50px 130px;
